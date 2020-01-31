@@ -2,7 +2,7 @@ Git &amp; GitHub - Activité
 ===
 
 Cette application console a été développée pour l'activité de OpenClassRoom Git & Github.
-Elle teste si le nom entré correspond à **max**, au cas échéant elle retourne ce message **C'est bien moi !** sinon "Ce n'est pas moi !".
+Elle teste si le nom entré correspond à **max**.
 
 Compilation
 ---
