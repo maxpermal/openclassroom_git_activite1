@@ -7,15 +7,24 @@ std::string get_name();
 
 int main()
 {
-	cout << "Hello World!" << endl;
-	get_name ();
+	std::string my_name = get_name ();
+
+	if(my_name == "max")
+	{
+		std::cout << "C'est bien moi !\n" << std::endl;
+	}
+	else
+	{
+		std::cout << "Ce n'est pas moi !\n" << std::endl;
+	}
+
 	return 0;
 }
 
 
 /**
- * @brief get_name demande d'entrer son nom
- * @return
+ * @brief get_name demande d'entrer son nom.
+ * @return chaine de caractère : espace/tab/saut de ligne => coupure du mot
  */
 std::string get_name()
 {
