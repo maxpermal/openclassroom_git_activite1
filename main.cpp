@@ -24,7 +24,7 @@ int main()
 
 /**
  * @brief get_name demande d'entrer son nom.
- * @return chaine de caractère : espace/tab/saut de ligne => coupure du mot
+ * @return chaine de caractère : espace/tab/saut de ligne => coupure du mot voir std::cin
  */
 std::string get_name()
 {
